@@ -2,10 +2,14 @@ baseurl = "https://github.com/paranoi-i/paranoii.github.io/"
 title = "paranoii"
 theme = "hugo-theme-console"
 languageCode = "en-us"
+enableRobotsTXT = true
+canonifyURLs = true
 
 [params]
   # Cutting off the page title to two chars for mobile (console-demo -> co)
   titleCutting = false
+  
+  Description = "Noticing UFO and aliens-related patterns that no one has noticed before"
 
   # Set the animation style -- https://animate.style/
   # To disable animations, please remove or comment animationStyle parameter
@@ -27,3 +31,8 @@ languageCode = "en-us"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
