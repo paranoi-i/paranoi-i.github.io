@@ -1,4 +1,4 @@
-baseurl = "https://github.com/paranoi-i/paranoii.github.io/"
+baseurl = "https://paranoi-i.github.io/"
 title = "paranoii"
 theme = "hugo-theme-console"
 languageCode = "en-us"
