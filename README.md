@@ -1,1 +1,1 @@
-# paranoii.github.io
+# paranoi-i.github.io
