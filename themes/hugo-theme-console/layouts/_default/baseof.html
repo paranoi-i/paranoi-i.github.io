@@ -28,6 +28,11 @@
 
     {{- partial "header.html" . -}}
 	<link rel="icon" type="image/x-icon" href="/favicon.ico?">
+	{{- if isset .Params "canonical" -}}
+  	<link rel="canonical" href="{{ .Params.canonical }}" />
+	{{- else -}}
+  	<link rel="canonical" href="{{ .Permalink }}" />
+	{{- end }}
 </head>
 <body class="terminal">
     <div class="container">
