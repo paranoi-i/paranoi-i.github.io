@@ -1,7 +1,7 @@
 baseurl = "https://paranoi-i.github.io/"
-locale = "en-us"
 title = "paranoii"
 theme = "hugo-theme-console"
+languageCode = "en-us"
 enableRobotsTXT = true
 canonifyURLs = true
 
@@ -23,9 +23,9 @@ canonifyURLs = true
   name = "⦑ cast your ego aside ⦒"
   url = "egoless/"
   
-  [[params.navlinks]]
-  name = "⦑ open your eyes ⦒"
-  url = "sighted/"
+  #[[params.navlinks]]
+  #name = "⦑ open your eyes ⦒"
+  #url = "sighted/"
 
 [markup]
   [markup.goldmark]
