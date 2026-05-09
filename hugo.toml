@@ -23,9 +23,9 @@ canonifyURLs = true
   name = "⦑ cast your ego aside ⦒"
   url = "egoless/"
   
-  #[[params.navlinks]]
-  #name = "photos/"
-  #url = "photos/"
+  [[params.navlinks]]
+  name = "⦑ open your eyes ⦒"
+  url = "sighted/"
 
 [markup]
   [markup.goldmark]
